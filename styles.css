@@ -1,0 +1,144 @@
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 30px;
+}
+
+
+
+
+
+
+.item1{
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    border-style: solid;
+    color: #733fc8;
+    background-color: #733fc8;
+    border-radius: 20px;
+}
+.item1-image{
+    border-radius: 30px;
+    position: fixed;
+    height: 50px;
+}
+.item1-paragraph{
+    display: flex;
+    align-self: flex-end;
+    color: #feeeff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+
+.item2{
+    display: grid;
+    grid-column:4/5;
+    grid-row: span 4;  
+    color: #49556b;
+    background-color: #49556b;
+    border-style: solid;
+    border-radius: 20px;
+}
+.item2-image{
+    border-radius: 30px;
+    position: fixed;
+    height: 50px;
+
+}
+.item2-paragraph{
+    display: flex;
+    align-self: flex-end;
+    color: #feeeff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+
+.item3{
+    display: grid;
+    grid-column: 2/4 ;
+    grid-row: -3/-1 ;
+    color: #19212e;
+    background-color: #19212e;
+    border-style: solid;
+    border-radius: 20px;
+}
+.item3-image{
+    border-radius: 30px;
+    position: fixed;
+    height: 50px;
+
+}
+.item3-paragraph{
+    display: flex;
+    align-self: flex-end;
+    color: #feeeff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+.item4{  display: grid;
+    grid-column: 3/4;
+    grid-row: 1/ 3;
+    color: rgb(75, 87, 7);
+    background-color: rgb(75, 87, 7);
+    border-style: solid;
+    border-radius: 20px;
+}
+.item4-image{
+    border-radius: 30px;
+    position: fixed;
+    height: 50px;
+
+}
+.item4-paragraph{
+    display: flex;
+    align-self: flex-end;
+    color: #feeeff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+
+
+.item5{  display: grid;
+    grid-column: 1/2;
+    grid-row: 3/5;
+    color: rgb(8, 0, 78);
+    background-color: rgb(8, 0, 78);
+    border-style: solid;
+    border-radius: 20px;  
+}
+.item5-image{
+    border-radius: 30px;
+    position: fixed;
+    height: 50px;
+
+}
+.item5-paragraph{
+    display: flex;
+    align-self: flex-end;
+    color: #feeeff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ opa
+}
